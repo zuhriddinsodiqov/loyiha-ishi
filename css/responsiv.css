@@ -1,0 +1,21 @@
+@media only screen and (max-width:768px) {
+     .banner .item a{
+        display: none;
+    }
+    .navbar .navbar__nav a{
+        display: none;
+    }
+    .banner .item .game{
+        display: none;
+    }
+    .banner .item .fa-bars{
+       display: inline;
+    }
+    .banner .item h1, p,  button{
+       display: none;
+    }
+    .our__content{
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+}
